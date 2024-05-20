@@ -4,7 +4,7 @@ An utility for securing files using cryptography. Uses Argon2id Version 19 & Aes
 
 ## Help
 
-```sh
+```text
 Store to keep files secure using Cryptography
 
 Usage: store <COMMAND>
