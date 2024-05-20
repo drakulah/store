@@ -1,0 +1,20 @@
+[package]
+name = "store"
+version = "0.1.0"
+edition = "2021"
+authors = ["drakulah"]
+description = "An utility for securing files using cryptography. Uses Argon2id Version 19 & Aes256Gcm."
+license = "MIT"
+readme = "README.md"
+repository = "https://github.com/drakulah/store"
+keywords = ["crypto", "security", "secure", "file"]
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+aes-gcm = "0.10"
+argon2 = "0.5"
+digest = "0.10"
+clap = { version = "4.5.1", features = ["cargo"] }
+rpassword = "7.3.1"
+console = "0.15.8"
